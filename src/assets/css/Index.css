@@ -1,0 +1,42 @@
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{
+  margin:0;padding:0;
+}
+html,body{
+  background-color: #FFF !important;
+}
+.App {
+  text-align: center;
+  width:100%;
+  height:100%;
+  overflow-x:hidden;
+  overflow-y: scroll;
+}
+.M10{
+  margin:10px;
+}
+.W100{
+  width:100%;
+}
+.mainTip{
+  position: absolute;
+  background:#C40017;
+  border-radius:0px 0px 8px 0px;
+  z-index: 10;
+  padding: 2px;
+  font-size: 3.5vw;
+}
+.grayBay{
+  background-color: #eee;
+  height:3vh;
+}
+.imgEmpty{
+  width:100%;
+}
+.scollY{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height:73.5vh;
+}
+.am-activity-indicator-tip{
+  color:white !important;
+}
