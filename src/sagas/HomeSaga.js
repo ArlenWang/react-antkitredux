@@ -1,5 +1,5 @@
 import { getSagas } from '../utils/NetWorking';
-import {put, take, call, fork,select} from 'redux-saga/effects'
+import {put, take, call, select} from 'redux-saga/effects'
 import { api } from '../config/Api';
 
 export function fetchHomeTypes(){

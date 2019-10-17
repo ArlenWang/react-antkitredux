@@ -1,4 +1,3 @@
-import { storeConfig } from '../config/storeConfig';
 const initialAuthState = { isFromNet:true,homeroutes: []};
 
 const homeTypes = (state = initialAuthState, action)  => {
@@ -6,12 +5,6 @@ const homeTypes = (state = initialAuthState, action)  => {
     case 'Home_Type':
      let data=action.datatypes;
       if(data&&data['result']==='success'){
-        storage.save({
-          key: storeConfig.proTypesKey,
-          data: data,
-          expires: storeConfig.proTypesTime
-         });
-        storageDelKeys.add(storeConfig.proTypesKey);
         return { ...state, homeroutes:data};
       }else{
         return state;
