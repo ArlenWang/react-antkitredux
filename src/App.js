@@ -1,9 +1,9 @@
 import React from 'react';
 import './assets/css/Index.css';
+import './config/Global';
 //import { createBrowserHistory } from "history";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import indexRoutes from "./router/index";
-
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware } from 'redux';
 import AppReducer from './reducers';
